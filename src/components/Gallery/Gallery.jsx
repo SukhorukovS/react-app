@@ -1,6 +1,7 @@
 import './Gallery.scss';
 
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import { ImageBox } from "./ImageBox";
 
@@ -18,3 +19,7 @@ export class Gallery extends Component {
         );
     }
 }
+
+Gallery.propTypes = {
+    pictures: PropTypes.array,
+};
