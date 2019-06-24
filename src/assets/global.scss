@@ -40,6 +40,20 @@ img {
   margin: -1rem -1rem;
   padding-bottom: 3rem;
 }
+.btn {
+  display: inline-block;
+  font: inherit;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0.5rem auto #4d90fe;
+}
+
 
 @supports (display: grid) {
   .gallery {
